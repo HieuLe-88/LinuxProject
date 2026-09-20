@@ -1,0 +1,4 @@
+module MyQmlApp
+typeinfo appQtQmlApp.qmltypes
+prefer :/MyQmlApp/
+

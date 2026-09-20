@@ -1,0 +1,14 @@
+-rootPath
+/home/hieu/mysampleapp/QTAPP
+-cmake-output
+-output-file
+/home/hieu/mysampleapp/QTAPP/build/.qt_plugins/Qt6_QmlPlugins_Imports_appQtQmlApp.cmake
+-importPath
+/home/hieu/mysampleapp/QTAPP/build/MyQmlApp
+-importPath
+/home/hieu/mysampleapp/QTAPP/build
+-importPath
+/usr/lib/x86_64-linux-gnu/qt6/qml
+-qrcFiles
+/home/hieu/mysampleapp/QTAPP/build/.rcc/qmake_MyQmlApp.qrc
+/home/hieu/mysampleapp/QTAPP/build/.rcc/appQtQmlApp_raw_qml_0.qrc

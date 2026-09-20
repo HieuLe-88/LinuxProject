@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/MyQmlApp">
+    <file alias="qmldir">/home/hieu/mysampleapp/QTAPP/build/MyQmlApp/qmldir</file>
+  </qresource>
+</RCC>
+
