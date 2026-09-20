@@ -1,15 +1,15 @@
 {
-	"BUILD_DIR" : "/home/hieu/mysampleapp/QTAPP/build/appQtQmlApp_autogen",
-	"CMAKE_BINARY_DIR" : "/home/hieu/mysampleapp/QTAPP/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/hieu/mysampleapp/QTAPP/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/hieu/mysampleapp/QTAPP",
+	"BUILD_DIR" : "/home/hieu/LinuxProject/QTAPP/build/appQtQmlApp_autogen",
+	"CMAKE_BINARY_DIR" : "/home/hieu/LinuxProject/QTAPP/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/hieu/LinuxProject/QTAPP/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/hieu/LinuxProject/QTAPP",
 	"CMAKE_EXECUTABLE" : "/snap/cmake/1562/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/hieu/mysampleapp/QTAPP/CMakeLists.txt",
+		"/home/hieu/LinuxProject/QTAPP/CMakeLists.txt",
 		"/snap/cmake/1562/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake",
 		"/snap/cmake/1562/share/cmake-4.4/Modules/CMakeSystem.cmake.in",
-		"/home/hieu/mysampleapp/QTAPP/build/CMakeFiles/4.4.3/CMakeSystem.cmake",
+		"/home/hieu/LinuxProject/QTAPP/build/CMakeFiles/4.4.3/CMakeSystem.cmake",
 		"/snap/cmake/1562/share/cmake-4.4/Modules/CMakeUnixFindMake.cmake",
 		"/snap/cmake/1562/share/cmake-4.4/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/snap/cmake/1562/share/cmake-4.4/Modules/Platform/Linux-Initialize.cmake",
@@ -66,7 +66,7 @@
 		"/snap/cmake/1562/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake",
 		"/snap/cmake/1562/share/cmake-4.4/Modules/Compiler/GNU-FindBinUtils.cmake",
 		"/snap/cmake/1562/share/cmake-4.4/Modules/CMakeCXXCompiler.cmake.in",
-		"/home/hieu/mysampleapp/QTAPP/build/CMakeFiles/4.4.3/CMakeCXXCompiler.cmake",
+		"/home/hieu/LinuxProject/QTAPP/build/CMakeFiles/4.4.3/CMakeCXXCompiler.cmake",
 		"/snap/cmake/1562/share/cmake-4.4/Modules/CMakeSystemSpecificInformation.cmake",
 		"/snap/cmake/1562/share/cmake-4.4/Modules/CMakeGenericSystem.cmake",
 		"/snap/cmake/1562/share/cmake-4.4/Modules/CMakeInitializeConfigs.cmake",
@@ -92,7 +92,7 @@
 		"/snap/cmake/1562/share/cmake-4.4/Modules/CMakeDetermineCompilerSupport.cmake",
 		"/snap/cmake/1562/share/cmake-4.4/Modules/Internal/FeatureTesting.cmake",
 		"/snap/cmake/1562/share/cmake-4.4/Modules/CMakeCXXCompiler.cmake.in",
-		"/home/hieu/mysampleapp/QTAPP/build/CMakeFiles/4.4.3/CMakeCXXCompiler.cmake",
+		"/home/hieu/LinuxProject/QTAPP/build/CMakeFiles/4.4.3/CMakeCXXCompiler.cmake",
 		"/snap/cmake/1562/share/cmake-4.4/Modules/Internal/CMakeCXXLinkerInformation.cmake",
 		"/snap/cmake/1562/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake",
 		"/snap/cmake/1562/share/cmake-4.4/Modules/Linker/GNU-CXX.cmake",
@@ -348,14 +348,14 @@
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/hieu/mysampleapp/QTAPP",
+	"CMAKE_SOURCE_DIR" : "/home/hieu/LinuxProject/QTAPP",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "/home/hieu/mysampleapp/QTAPP/build/appQtQmlApp_autogen/deps",
+	"DEP_FILE" : "/home/hieu/LinuxProject/QTAPP/build/appQtQmlApp_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "appQtQmlApp_autogen/timestamp",
 	"HEADERS" : [],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/hieu/mysampleapp/QTAPP/build/appQtQmlApp_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/hieu/mysampleapp/QTAPP/build/appQtQmlApp_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/hieu/LinuxProject/QTAPP/build/appQtQmlApp_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/hieu/LinuxProject/QTAPP/build/appQtQmlApp_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"QT_CORE_LIB",
@@ -376,7 +376,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/hieu/mysampleapp/QTAPP",
+		"/home/hieu/LinuxProject/QTAPP",
 		"/usr/include/x86_64-linux-gnu/qt6/QtQml/6.4.2",
 		"/usr/include/x86_64-linux-gnu/qt6/QtQml/6.4.2/QtQml",
 		"/usr/include/x86_64-linux-gnu/qt6/QtCore/6.4.2",
@@ -418,40 +418,40 @@
 		"-E",
 		"/snap/cmake/1562/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/hieu/mysampleapp/QTAPP/build/appQtQmlApp_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/hieu/LinuxProject/QTAPP/build/appQtQmlApp_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"/home/hieu/mysampleapp/QTAPP/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp",
-		"/home/hieu/mysampleapp/QTAPP/build/.rcc/qrc_appQtQmlApp_raw_qml_0.cpp",
-		"/home/hieu/mysampleapp/QTAPP/build/.rcc/qrc_qmake_MyQmlApp.cpp",
-		"/home/hieu/mysampleapp/QTAPP/build/appqtqmlapp_qmltyperegistrations.cpp"
+		"/home/hieu/LinuxProject/QTAPP/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp",
+		"/home/hieu/LinuxProject/QTAPP/build/.rcc/qrc_appQtQmlApp_raw_qml_0.cpp",
+		"/home/hieu/LinuxProject/QTAPP/build/.rcc/qrc_qmake_MyQmlApp.cpp",
+		"/home/hieu/LinuxProject/QTAPP/build/appqtqmlapp_qmltyperegistrations.cpp"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 2,
-	"PARSE_CACHE_FILE" : "/home/hieu/mysampleapp/QTAPP/build/CMakeFiles/appQtQmlApp_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/hieu/LinuxProject/QTAPP/build/CMakeFiles/appQtQmlApp_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt6/libexec/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 4,
-	"SETTINGS_FILE" : "/home/hieu/mysampleapp/QTAPP/build/CMakeFiles/appQtQmlApp_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/hieu/LinuxProject/QTAPP/build/CMakeFiles/appQtQmlApp_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/hieu/mysampleapp/QTAPP/build/.rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp",
+			"/home/hieu/LinuxProject/QTAPP/build/.rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp",
 			"MU",
 			null
 		],
-		[ "/home/hieu/mysampleapp/QTAPP/main.cpp", "MU", null ]
+		[ "/home/hieu/LinuxProject/QTAPP/main.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
 	"UIC_SKIP" : 
 	[
-		"/home/hieu/mysampleapp/QTAPP/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp",
-		"/home/hieu/mysampleapp/QTAPP/build/.rcc/qrc_appQtQmlApp_raw_qml_0.cpp",
-		"/home/hieu/mysampleapp/QTAPP/build/.rcc/qrc_qmake_MyQmlApp.cpp",
-		"/home/hieu/mysampleapp/QTAPP/build/appqtqmlapp_qmltyperegistrations.cpp"
+		"/home/hieu/LinuxProject/QTAPP/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp",
+		"/home/hieu/LinuxProject/QTAPP/build/.rcc/qrc_appQtQmlApp_raw_qml_0.cpp",
+		"/home/hieu/LinuxProject/QTAPP/build/.rcc/qrc_qmake_MyQmlApp.cpp",
+		"/home/hieu/LinuxProject/QTAPP/build/appqtqmlapp_qmltyperegistrations.cpp"
 	],
 	"UIC_UI_FILES" : [],
 	"USE_BETTER_GRAPH" : false,

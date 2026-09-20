@@ -53,10 +53,10 @@ RM = /snap/cmake/1562/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hieu/mysampleapp/QTAPP
+CMAKE_SOURCE_DIR = /home/hieu/LinuxProject/QTAPP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hieu/mysampleapp/QTAPP/build
+CMAKE_BINARY_DIR = /home/hieu/LinuxProject/QTAPP/build
 
 # Utility rule file for appQtQmlApp_tooling.
 
@@ -66,9 +66,9 @@ include CMakeFiles/appQtQmlApp_tooling.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/appQtQmlApp_tooling.dir/progress.make
 
-MyQmlApp/main.qml: /home/hieu/mysampleapp/QTAPP/main.qml
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hieu/mysampleapp/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating MyQmlApp/main.qml"
-	cd /home/hieu/mysampleapp/QTAPP && /snap/cmake/1562/bin/cmake -E copy /home/hieu/mysampleapp/QTAPP/main.qml /home/hieu/mysampleapp/QTAPP/build/MyQmlApp/main.qml
+MyQmlApp/main.qml: /home/hieu/LinuxProject/QTAPP/main.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hieu/LinuxProject/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating MyQmlApp/main.qml"
+	cd /home/hieu/LinuxProject/QTAPP && /snap/cmake/1562/bin/cmake -E copy /home/hieu/LinuxProject/QTAPP/main.qml /home/hieu/LinuxProject/QTAPP/build/MyQmlApp/main.qml
 
 CMakeFiles/appQtQmlApp_tooling.dir/codegen:
 .PHONY : CMakeFiles/appQtQmlApp_tooling.dir/codegen
@@ -86,6 +86,6 @@ CMakeFiles/appQtQmlApp_tooling.dir/clean:
 .PHONY : CMakeFiles/appQtQmlApp_tooling.dir/clean
 
 CMakeFiles/appQtQmlApp_tooling.dir/depend:
-	cd /home/hieu/mysampleapp/QTAPP/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hieu/mysampleapp/QTAPP /home/hieu/mysampleapp/QTAPP /home/hieu/mysampleapp/QTAPP/build /home/hieu/mysampleapp/QTAPP/build /home/hieu/mysampleapp/QTAPP/build/CMakeFiles/appQtQmlApp_tooling.dir/DependInfo.cmake "--color=$(COLOR)" appQtQmlApp_tooling
+	cd /home/hieu/LinuxProject/QTAPP/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hieu/LinuxProject/QTAPP /home/hieu/LinuxProject/QTAPP /home/hieu/LinuxProject/QTAPP/build /home/hieu/LinuxProject/QTAPP/build /home/hieu/LinuxProject/QTAPP/build/CMakeFiles/appQtQmlApp_tooling.dir/DependInfo.cmake "--color=$(COLOR)" appQtQmlApp_tooling
 .PHONY : CMakeFiles/appQtQmlApp_tooling.dir/depend
 

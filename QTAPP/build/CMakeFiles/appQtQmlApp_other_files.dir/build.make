@@ -53,10 +53,10 @@ RM = /snap/cmake/1562/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hieu/mysampleapp/QTAPP
+CMAKE_SOURCE_DIR = /home/hieu/LinuxProject/QTAPP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hieu/mysampleapp/QTAPP/build
+CMAKE_BINARY_DIR = /home/hieu/LinuxProject/QTAPP/build
 
 # Utility rule file for appQtQmlApp_other_files.
 
@@ -81,6 +81,6 @@ CMakeFiles/appQtQmlApp_other_files.dir/clean:
 .PHONY : CMakeFiles/appQtQmlApp_other_files.dir/clean
 
 CMakeFiles/appQtQmlApp_other_files.dir/depend:
-	cd /home/hieu/mysampleapp/QTAPP/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hieu/mysampleapp/QTAPP /home/hieu/mysampleapp/QTAPP /home/hieu/mysampleapp/QTAPP/build /home/hieu/mysampleapp/QTAPP/build /home/hieu/mysampleapp/QTAPP/build/CMakeFiles/appQtQmlApp_other_files.dir/DependInfo.cmake "--color=$(COLOR)" appQtQmlApp_other_files
+	cd /home/hieu/LinuxProject/QTAPP/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hieu/LinuxProject/QTAPP /home/hieu/LinuxProject/QTAPP /home/hieu/LinuxProject/QTAPP/build /home/hieu/LinuxProject/QTAPP/build /home/hieu/LinuxProject/QTAPP/build/CMakeFiles/appQtQmlApp_other_files.dir/DependInfo.cmake "--color=$(COLOR)" appQtQmlApp_other_files
 .PHONY : CMakeFiles/appQtQmlApp_other_files.dir/depend
 

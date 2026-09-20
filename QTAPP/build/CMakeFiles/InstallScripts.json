@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/hieu/mysampleapp/QTAPP/build/cmake_install.cmake"
+		"/home/hieu/LinuxProject/QTAPP/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

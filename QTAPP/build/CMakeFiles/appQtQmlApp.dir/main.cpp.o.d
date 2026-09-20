@@ -1,5 +1,5 @@
 CMakeFiles/appQtQmlApp.dir/main.cpp.o: \
- /home/hieu/mysampleapp/QTAPP/main.cpp /usr/include/stdc-predef.h \
+ /home/hieu/LinuxProject/QTAPP/main.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/QGuiApplication \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qguiapplication.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiglobal.h \

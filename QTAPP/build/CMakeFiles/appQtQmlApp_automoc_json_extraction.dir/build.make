@@ -53,10 +53,10 @@ RM = /snap/cmake/1562/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hieu/mysampleapp/QTAPP
+CMAKE_SOURCE_DIR = /home/hieu/LinuxProject/QTAPP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hieu/mysampleapp/QTAPP/build
+CMAKE_BINARY_DIR = /home/hieu/LinuxProject/QTAPP/build
 
 # Utility rule file for appQtQmlApp_automoc_json_extraction.
 
@@ -67,8 +67,8 @@ include CMakeFiles/appQtQmlApp_automoc_json_extraction.dir/compiler_depend.make
 include CMakeFiles/appQtQmlApp_automoc_json_extraction.dir/progress.make
 
 CMakeFiles/appQtQmlApp_automoc_json_extraction: /usr/lib/qt6/libexec/cmake_automoc_parser
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hieu/mysampleapp/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running AUTOMOC file extraction for target appQtQmlApp"
-	/usr/lib/qt6/libexec/cmake_automoc_parser --cmake-autogen-cache-file /home/hieu/mysampleapp/QTAPP/build/CMakeFiles/appQtQmlApp_autogen.dir/ParseCache.txt --cmake-autogen-info-file /home/hieu/mysampleapp/QTAPP/build/CMakeFiles/appQtQmlApp_autogen.dir/AutogenInfo.json --output-file-path /home/hieu/mysampleapp/QTAPP/build/meta_types/appQtQmlApp_json_file_list.txt --timestamp-file-path /home/hieu/mysampleapp/QTAPP/build/meta_types/appQtQmlApp_json_file_list.txt.timestamp --cmake-autogen-include-dir-path /home/hieu/mysampleapp/QTAPP/build/appQtQmlApp_autogen/include
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hieu/LinuxProject/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running AUTOMOC file extraction for target appQtQmlApp"
+	/usr/lib/qt6/libexec/cmake_automoc_parser --cmake-autogen-cache-file /home/hieu/LinuxProject/QTAPP/build/CMakeFiles/appQtQmlApp_autogen.dir/ParseCache.txt --cmake-autogen-info-file /home/hieu/LinuxProject/QTAPP/build/CMakeFiles/appQtQmlApp_autogen.dir/AutogenInfo.json --output-file-path /home/hieu/LinuxProject/QTAPP/build/meta_types/appQtQmlApp_json_file_list.txt --timestamp-file-path /home/hieu/LinuxProject/QTAPP/build/meta_types/appQtQmlApp_json_file_list.txt.timestamp --cmake-autogen-include-dir-path /home/hieu/LinuxProject/QTAPP/build/appQtQmlApp_autogen/include
 
 CMakeFiles/appQtQmlApp_automoc_json_extraction.dir/codegen:
 .PHONY : CMakeFiles/appQtQmlApp_automoc_json_extraction.dir/codegen
@@ -86,6 +86,6 @@ CMakeFiles/appQtQmlApp_automoc_json_extraction.dir/clean:
 .PHONY : CMakeFiles/appQtQmlApp_automoc_json_extraction.dir/clean
 
 CMakeFiles/appQtQmlApp_automoc_json_extraction.dir/depend:
-	cd /home/hieu/mysampleapp/QTAPP/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hieu/mysampleapp/QTAPP /home/hieu/mysampleapp/QTAPP /home/hieu/mysampleapp/QTAPP/build /home/hieu/mysampleapp/QTAPP/build /home/hieu/mysampleapp/QTAPP/build/CMakeFiles/appQtQmlApp_automoc_json_extraction.dir/DependInfo.cmake "--color=$(COLOR)" appQtQmlApp_automoc_json_extraction
+	cd /home/hieu/LinuxProject/QTAPP/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hieu/LinuxProject/QTAPP /home/hieu/LinuxProject/QTAPP /home/hieu/LinuxProject/QTAPP/build /home/hieu/LinuxProject/QTAPP/build /home/hieu/LinuxProject/QTAPP/build/CMakeFiles/appQtQmlApp_automoc_json_extraction.dir/DependInfo.cmake "--color=$(COLOR)" appQtQmlApp_automoc_json_extraction
 .PHONY : CMakeFiles/appQtQmlApp_automoc_json_extraction.dir/depend
 

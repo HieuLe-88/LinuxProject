@@ -53,10 +53,10 @@ RM = /snap/cmake/1562/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hieu/mysampleapp/QTAPP
+CMAKE_SOURCE_DIR = /home/hieu/LinuxProject/QTAPP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hieu/mysampleapp/QTAPP/build
+CMAKE_BINARY_DIR = /home/hieu/LinuxProject/QTAPP/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/appQtQmlApp.dir/depend.make
@@ -71,9 +71,9 @@ include CMakeFiles/appQtQmlApp.dir/flags.make
 
 meta_types/qt6appqtqmlapp_debug_metatypes.json.gen: /usr/lib/qt6/libexec/moc
 meta_types/qt6appqtqmlapp_debug_metatypes.json.gen: meta_types/appQtQmlApp_json_file_list.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hieu/mysampleapp/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running moc --collect-json for target appQtQmlApp"
-	/usr/lib/qt6/libexec/moc -o /home/hieu/mysampleapp/QTAPP/build/meta_types/qt6appqtqmlapp_debug_metatypes.json.gen --collect-json @/home/hieu/mysampleapp/QTAPP/build/meta_types/appQtQmlApp_json_file_list.txt
-	/snap/cmake/1562/bin/cmake -E copy_if_different /home/hieu/mysampleapp/QTAPP/build/meta_types/qt6appqtqmlapp_debug_metatypes.json.gen /home/hieu/mysampleapp/QTAPP/build/meta_types/qt6appqtqmlapp_debug_metatypes.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hieu/LinuxProject/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running moc --collect-json for target appQtQmlApp"
+	/usr/lib/qt6/libexec/moc -o /home/hieu/LinuxProject/QTAPP/build/meta_types/qt6appqtqmlapp_debug_metatypes.json.gen --collect-json @/home/hieu/LinuxProject/QTAPP/build/meta_types/appQtQmlApp_json_file_list.txt
+	/snap/cmake/1562/bin/cmake -E copy_if_different /home/hieu/LinuxProject/QTAPP/build/meta_types/qt6appqtqmlapp_debug_metatypes.json.gen /home/hieu/LinuxProject/QTAPP/build/meta_types/qt6appqtqmlapp_debug_metatypes.json
 
 meta_types/qt6appqtqmlapp_debug_metatypes.json: meta_types/qt6appqtqmlapp_debug_metatypes.json.gen
 	@$(CMAKE_COMMAND) -E touch_nocreate meta_types/qt6appqtqmlapp_debug_metatypes.json
@@ -88,10 +88,10 @@ appqtqmlapp_qmltyperegistrations.cpp: /usr/lib/x86_64-linux-gnu/metatypes/qt6qui
 appqtqmlapp_qmltyperegistrations.cpp: /usr/lib/x86_64-linux-gnu/metatypes/qt6gui_none_metatypes.json
 appqtqmlapp_qmltyperegistrations.cpp: /usr/lib/x86_64-linux-gnu/metatypes/qt6qmlmodels_none_metatypes.json
 appqtqmlapp_qmltyperegistrations.cpp: /usr/lib/x86_64-linux-gnu/metatypes/qt6opengl_none_metatypes.json
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hieu/mysampleapp/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic QML type registration for target appQtQmlApp"
-	/usr/lib/qt6/libexec/qmltyperegistrar --generate-qmltypes=/home/hieu/mysampleapp/QTAPP/build/MyQmlApp/appQtQmlApp.qmltypes --import-name=MyQmlApp --major-version=1 --minor-version=0 @/home/hieu/mysampleapp/QTAPP/build/qmltypes/appQtQmlApp_foreign_types.txt -o /home/hieu/mysampleapp/QTAPP/build/appqtqmlapp_qmltyperegistrations.cpp /home/hieu/mysampleapp/QTAPP/build/meta_types/qt6appqtqmlapp_debug_metatypes.json
-	/snap/cmake/1562/bin/cmake -E make_directory /home/hieu/mysampleapp/QTAPP/build/.generated
-	/snap/cmake/1562/bin/cmake -E touch /home/hieu/mysampleapp/QTAPP/build/.generated/appQtQmlApp.qmltypes
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hieu/LinuxProject/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic QML type registration for target appQtQmlApp"
+	/usr/lib/qt6/libexec/qmltyperegistrar --generate-qmltypes=/home/hieu/LinuxProject/QTAPP/build/MyQmlApp/appQtQmlApp.qmltypes --import-name=MyQmlApp --major-version=1 --minor-version=0 @/home/hieu/LinuxProject/QTAPP/build/qmltypes/appQtQmlApp_foreign_types.txt -o /home/hieu/LinuxProject/QTAPP/build/appqtqmlapp_qmltyperegistrations.cpp /home/hieu/LinuxProject/QTAPP/build/meta_types/qt6appqtqmlapp_debug_metatypes.json
+	/snap/cmake/1562/bin/cmake -E make_directory /home/hieu/LinuxProject/QTAPP/build/.generated
+	/snap/cmake/1562/bin/cmake -E touch /home/hieu/LinuxProject/QTAPP/build/.generated/appQtQmlApp.qmltypes
 
 MyQmlApp/appQtQmlApp.qmltypes: appqtqmlapp_qmltyperegistrations.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate MyQmlApp/appQtQmlApp.qmltypes
@@ -99,37 +99,37 @@ MyQmlApp/appQtQmlApp.qmltypes: appqtqmlapp_qmltyperegistrations.cpp
 .rcc/qrc_qmake_MyQmlApp.cpp: MyQmlApp/qmldir
 .rcc/qrc_qmake_MyQmlApp.cpp: .rcc/qmake_MyQmlApp.qrc
 .rcc/qrc_qmake_MyQmlApp.cpp: /usr/lib/qt6/libexec/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hieu/mysampleapp/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Running rcc for resource qmake_MyQmlApp"
-	/usr/lib/qt6/libexec/rcc --output /home/hieu/mysampleapp/QTAPP/build/.rcc/qrc_qmake_MyQmlApp.cpp --name qmake_MyQmlApp /home/hieu/mysampleapp/QTAPP/build/.rcc/qmake_MyQmlApp.qrc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hieu/LinuxProject/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Running rcc for resource qmake_MyQmlApp"
+	/usr/lib/qt6/libexec/rcc --output /home/hieu/LinuxProject/QTAPP/build/.rcc/qrc_qmake_MyQmlApp.cpp --name qmake_MyQmlApp /home/hieu/LinuxProject/QTAPP/build/.rcc/qmake_MyQmlApp.qrc
 
 .rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp: /usr/lib/qt6/libexec/qmlcachegen
 .rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp: .rcc/qmlcache/appQtQmlApp_qml_loader_file_list.rsp
 .rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp: .rcc/qmake_MyQmlApp.qrc
 .rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp: .rcc/appQtQmlApp_raw_qml_0.qrc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hieu/mysampleapp/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating .rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp"
-	/usr/lib/qt6/libexec/qmlcachegen --resource-name qmlcache_appQtQmlApp --resource /home/hieu/mysampleapp/QTAPP/build/.rcc/qmake_MyQmlApp.qrc --resource /home/hieu/mysampleapp/QTAPP/build/.rcc/appQtQmlApp_raw_qml_0.qrc -o /home/hieu/mysampleapp/QTAPP/build/.rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp @/home/hieu/mysampleapp/QTAPP/build/.rcc/qmlcache/appQtQmlApp_qml_loader_file_list.rsp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hieu/LinuxProject/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating .rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp"
+	/usr/lib/qt6/libexec/qmlcachegen --resource-name qmlcache_appQtQmlApp --resource /home/hieu/LinuxProject/QTAPP/build/.rcc/qmake_MyQmlApp.qrc --resource /home/hieu/LinuxProject/QTAPP/build/.rcc/appQtQmlApp_raw_qml_0.qrc -o /home/hieu/LinuxProject/QTAPP/build/.rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp @/home/hieu/LinuxProject/QTAPP/build/.rcc/qmlcache/appQtQmlApp_qml_loader_file_list.rsp
 
 .rcc/qmlcache/appQtQmlApp_main_qml.cpp: /usr/lib/qt6/libexec/qmlcachegen
-.rcc/qmlcache/appQtQmlApp_main_qml.cpp: /home/hieu/mysampleapp/QTAPP/main.qml
+.rcc/qmlcache/appQtQmlApp_main_qml.cpp: /home/hieu/LinuxProject/QTAPP/main.qml
 .rcc/qmlcache/appQtQmlApp_main_qml.cpp: .rcc/qmake_MyQmlApp.qrc
 .rcc/qmlcache/appQtQmlApp_main_qml.cpp: .rcc/appQtQmlApp_raw_qml_0.qrc
 .rcc/qmlcache/appQtQmlApp_main_qml.cpp: MyQmlApp/appQtQmlApp.qmltypes
 .rcc/qmlcache/appQtQmlApp_main_qml.cpp: MyQmlApp/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hieu/mysampleapp/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating .rcc/qmlcache/appQtQmlApp_main_qml.cpp"
-	/snap/cmake/1562/bin/cmake -E make_directory /home/hieu/mysampleapp/QTAPP/build/.rcc/qmlcache
-	/usr/lib/qt6/libexec/qmlcachegen --bare --resource-path /MyQmlApp/main.qml -I /home/hieu/mysampleapp/QTAPP/build -I /usr/lib/x86_64-linux-gnu/qt6/qml -i /home/hieu/mysampleapp/QTAPP/build/MyQmlApp/qmldir --resource /home/hieu/mysampleapp/QTAPP/build/.rcc/qmake_MyQmlApp.qrc --resource /home/hieu/mysampleapp/QTAPP/build/.rcc/appQtQmlApp_raw_qml_0.qrc -o /home/hieu/mysampleapp/QTAPP/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp /home/hieu/mysampleapp/QTAPP/main.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hieu/LinuxProject/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating .rcc/qmlcache/appQtQmlApp_main_qml.cpp"
+	/snap/cmake/1562/bin/cmake -E make_directory /home/hieu/LinuxProject/QTAPP/build/.rcc/qmlcache
+	/usr/lib/qt6/libexec/qmlcachegen --bare --resource-path /MyQmlApp/main.qml -I /home/hieu/LinuxProject/QTAPP/build -I /usr/lib/x86_64-linux-gnu/qt6/qml -i /home/hieu/LinuxProject/QTAPP/build/MyQmlApp/qmldir --resource /home/hieu/LinuxProject/QTAPP/build/.rcc/qmake_MyQmlApp.qrc --resource /home/hieu/LinuxProject/QTAPP/build/.rcc/appQtQmlApp_raw_qml_0.qrc -o /home/hieu/LinuxProject/QTAPP/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp /home/hieu/LinuxProject/QTAPP/main.qml
 
-.rcc/qrc_appQtQmlApp_raw_qml_0.cpp: /home/hieu/mysampleapp/QTAPP/main.qml
+.rcc/qrc_appQtQmlApp_raw_qml_0.cpp: /home/hieu/LinuxProject/QTAPP/main.qml
 .rcc/qrc_appQtQmlApp_raw_qml_0.cpp: .rcc/appQtQmlApp_raw_qml_0.qrc
 .rcc/qrc_appQtQmlApp_raw_qml_0.cpp: /usr/lib/qt6/libexec/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hieu/mysampleapp/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Running rcc for resource appQtQmlApp_raw_qml_0"
-	/usr/lib/qt6/libexec/rcc --output /home/hieu/mysampleapp/QTAPP/build/.rcc/qrc_appQtQmlApp_raw_qml_0.cpp --name appQtQmlApp_raw_qml_0 /home/hieu/mysampleapp/QTAPP/build/.rcc/appQtQmlApp_raw_qml_0.qrc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hieu/LinuxProject/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Running rcc for resource appQtQmlApp_raw_qml_0"
+	/usr/lib/qt6/libexec/rcc --output /home/hieu/LinuxProject/QTAPP/build/.rcc/qrc_appQtQmlApp_raw_qml_0.cpp --name appQtQmlApp_raw_qml_0 /home/hieu/LinuxProject/QTAPP/build/.rcc/appQtQmlApp_raw_qml_0.qrc
 
 appQtQmlApp_autogen/timestamp: /usr/lib/qt6/libexec/moc
 appQtQmlApp_autogen/timestamp: CMakeFiles/appQtQmlApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hieu/mysampleapp/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Automatic MOC and UIC for target appQtQmlApp"
-	/snap/cmake/1562/bin/cmake -E cmake_autogen /home/hieu/mysampleapp/QTAPP/build/CMakeFiles/appQtQmlApp_autogen.dir/AutogenInfo.json Debug
-	/snap/cmake/1562/bin/cmake -E touch /home/hieu/mysampleapp/QTAPP/build/appQtQmlApp_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hieu/LinuxProject/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Automatic MOC and UIC for target appQtQmlApp"
+	/snap/cmake/1562/bin/cmake -E cmake_autogen /home/hieu/LinuxProject/QTAPP/build/CMakeFiles/appQtQmlApp_autogen.dir/AutogenInfo.json Debug
+	/snap/cmake/1562/bin/cmake -E touch /home/hieu/LinuxProject/QTAPP/build/appQtQmlApp_autogen/timestamp
 
 CMakeFiles/appQtQmlApp.dir/codegen:
 .PHONY : CMakeFiles/appQtQmlApp.dir/codegen
@@ -137,100 +137,100 @@ CMakeFiles/appQtQmlApp.dir/codegen:
 CMakeFiles/appQtQmlApp.dir/appQtQmlApp_autogen/mocs_compilation.cpp.o: CMakeFiles/appQtQmlApp.dir/flags.make
 CMakeFiles/appQtQmlApp.dir/appQtQmlApp_autogen/mocs_compilation.cpp.o: appQtQmlApp_autogen/mocs_compilation.cpp
 CMakeFiles/appQtQmlApp.dir/appQtQmlApp_autogen/mocs_compilation.cpp.o: CMakeFiles/appQtQmlApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hieu/mysampleapp/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/appQtQmlApp.dir/appQtQmlApp_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQtQmlApp.dir/appQtQmlApp_autogen/mocs_compilation.cpp.o -MF CMakeFiles/appQtQmlApp.dir/appQtQmlApp_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/appQtQmlApp.dir/appQtQmlApp_autogen/mocs_compilation.cpp.o -c /home/hieu/mysampleapp/QTAPP/build/appQtQmlApp_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hieu/LinuxProject/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/appQtQmlApp.dir/appQtQmlApp_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQtQmlApp.dir/appQtQmlApp_autogen/mocs_compilation.cpp.o -MF CMakeFiles/appQtQmlApp.dir/appQtQmlApp_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/appQtQmlApp.dir/appQtQmlApp_autogen/mocs_compilation.cpp.o -c /home/hieu/LinuxProject/QTAPP/build/appQtQmlApp_autogen/mocs_compilation.cpp
 
 CMakeFiles/appQtQmlApp.dir/appQtQmlApp_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appQtQmlApp.dir/appQtQmlApp_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hieu/mysampleapp/QTAPP/build/appQtQmlApp_autogen/mocs_compilation.cpp > CMakeFiles/appQtQmlApp.dir/appQtQmlApp_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hieu/LinuxProject/QTAPP/build/appQtQmlApp_autogen/mocs_compilation.cpp > CMakeFiles/appQtQmlApp.dir/appQtQmlApp_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/appQtQmlApp.dir/appQtQmlApp_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appQtQmlApp.dir/appQtQmlApp_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hieu/mysampleapp/QTAPP/build/appQtQmlApp_autogen/mocs_compilation.cpp -o CMakeFiles/appQtQmlApp.dir/appQtQmlApp_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hieu/LinuxProject/QTAPP/build/appQtQmlApp_autogen/mocs_compilation.cpp -o CMakeFiles/appQtQmlApp.dir/appQtQmlApp_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/appQtQmlApp.dir/main.cpp.o: CMakeFiles/appQtQmlApp.dir/flags.make
-CMakeFiles/appQtQmlApp.dir/main.cpp.o: /home/hieu/mysampleapp/QTAPP/main.cpp
+CMakeFiles/appQtQmlApp.dir/main.cpp.o: /home/hieu/LinuxProject/QTAPP/main.cpp
 CMakeFiles/appQtQmlApp.dir/main.cpp.o: CMakeFiles/appQtQmlApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hieu/mysampleapp/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/appQtQmlApp.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQtQmlApp.dir/main.cpp.o -MF CMakeFiles/appQtQmlApp.dir/main.cpp.o.d -o CMakeFiles/appQtQmlApp.dir/main.cpp.o -c /home/hieu/mysampleapp/QTAPP/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hieu/LinuxProject/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/appQtQmlApp.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQtQmlApp.dir/main.cpp.o -MF CMakeFiles/appQtQmlApp.dir/main.cpp.o.d -o CMakeFiles/appQtQmlApp.dir/main.cpp.o -c /home/hieu/LinuxProject/QTAPP/main.cpp
 
 CMakeFiles/appQtQmlApp.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appQtQmlApp.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hieu/mysampleapp/QTAPP/main.cpp > CMakeFiles/appQtQmlApp.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hieu/LinuxProject/QTAPP/main.cpp > CMakeFiles/appQtQmlApp.dir/main.cpp.i
 
 CMakeFiles/appQtQmlApp.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appQtQmlApp.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hieu/mysampleapp/QTAPP/main.cpp -o CMakeFiles/appQtQmlApp.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hieu/LinuxProject/QTAPP/main.cpp -o CMakeFiles/appQtQmlApp.dir/main.cpp.s
 
 CMakeFiles/appQtQmlApp.dir/appqtqmlapp_qmltyperegistrations.cpp.o: CMakeFiles/appQtQmlApp.dir/flags.make
 CMakeFiles/appQtQmlApp.dir/appqtqmlapp_qmltyperegistrations.cpp.o: appqtqmlapp_qmltyperegistrations.cpp
 CMakeFiles/appQtQmlApp.dir/appqtqmlapp_qmltyperegistrations.cpp.o: CMakeFiles/appQtQmlApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hieu/mysampleapp/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/appQtQmlApp.dir/appqtqmlapp_qmltyperegistrations.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQtQmlApp.dir/appqtqmlapp_qmltyperegistrations.cpp.o -MF CMakeFiles/appQtQmlApp.dir/appqtqmlapp_qmltyperegistrations.cpp.o.d -o CMakeFiles/appQtQmlApp.dir/appqtqmlapp_qmltyperegistrations.cpp.o -c /home/hieu/mysampleapp/QTAPP/build/appqtqmlapp_qmltyperegistrations.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hieu/LinuxProject/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/appQtQmlApp.dir/appqtqmlapp_qmltyperegistrations.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQtQmlApp.dir/appqtqmlapp_qmltyperegistrations.cpp.o -MF CMakeFiles/appQtQmlApp.dir/appqtqmlapp_qmltyperegistrations.cpp.o.d -o CMakeFiles/appQtQmlApp.dir/appqtqmlapp_qmltyperegistrations.cpp.o -c /home/hieu/LinuxProject/QTAPP/build/appqtqmlapp_qmltyperegistrations.cpp
 
 CMakeFiles/appQtQmlApp.dir/appqtqmlapp_qmltyperegistrations.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appQtQmlApp.dir/appqtqmlapp_qmltyperegistrations.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hieu/mysampleapp/QTAPP/build/appqtqmlapp_qmltyperegistrations.cpp > CMakeFiles/appQtQmlApp.dir/appqtqmlapp_qmltyperegistrations.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hieu/LinuxProject/QTAPP/build/appqtqmlapp_qmltyperegistrations.cpp > CMakeFiles/appQtQmlApp.dir/appqtqmlapp_qmltyperegistrations.cpp.i
 
 CMakeFiles/appQtQmlApp.dir/appqtqmlapp_qmltyperegistrations.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appQtQmlApp.dir/appqtqmlapp_qmltyperegistrations.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hieu/mysampleapp/QTAPP/build/appqtqmlapp_qmltyperegistrations.cpp -o CMakeFiles/appQtQmlApp.dir/appqtqmlapp_qmltyperegistrations.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hieu/LinuxProject/QTAPP/build/appqtqmlapp_qmltyperegistrations.cpp -o CMakeFiles/appQtQmlApp.dir/appqtqmlapp_qmltyperegistrations.cpp.s
 
 CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_qmake_MyQmlApp.cpp.o: CMakeFiles/appQtQmlApp.dir/flags.make
 CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_qmake_MyQmlApp.cpp.o: .rcc/qrc_qmake_MyQmlApp.cpp
 CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_qmake_MyQmlApp.cpp.o: CMakeFiles/appQtQmlApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hieu/mysampleapp/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_qmake_MyQmlApp.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_qmake_MyQmlApp.cpp.o -MF CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_qmake_MyQmlApp.cpp.o.d -o CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_qmake_MyQmlApp.cpp.o -c /home/hieu/mysampleapp/QTAPP/build/.rcc/qrc_qmake_MyQmlApp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hieu/LinuxProject/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_qmake_MyQmlApp.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_qmake_MyQmlApp.cpp.o -MF CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_qmake_MyQmlApp.cpp.o.d -o CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_qmake_MyQmlApp.cpp.o -c /home/hieu/LinuxProject/QTAPP/build/.rcc/qrc_qmake_MyQmlApp.cpp
 
 CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_qmake_MyQmlApp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_qmake_MyQmlApp.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hieu/mysampleapp/QTAPP/build/.rcc/qrc_qmake_MyQmlApp.cpp > CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_qmake_MyQmlApp.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hieu/LinuxProject/QTAPP/build/.rcc/qrc_qmake_MyQmlApp.cpp > CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_qmake_MyQmlApp.cpp.i
 
 CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_qmake_MyQmlApp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_qmake_MyQmlApp.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hieu/mysampleapp/QTAPP/build/.rcc/qrc_qmake_MyQmlApp.cpp -o CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_qmake_MyQmlApp.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hieu/LinuxProject/QTAPP/build/.rcc/qrc_qmake_MyQmlApp.cpp -o CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_qmake_MyQmlApp.cpp.s
 
 CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp.o: CMakeFiles/appQtQmlApp.dir/flags.make
 CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp.o: .rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp
 CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp.o: CMakeFiles/appQtQmlApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hieu/mysampleapp/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp.o -MF CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp.o.d -o CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp.o -c /home/hieu/mysampleapp/QTAPP/build/.rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hieu/LinuxProject/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp.o -MF CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp.o.d -o CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp.o -c /home/hieu/LinuxProject/QTAPP/build/.rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp
 
 CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hieu/mysampleapp/QTAPP/build/.rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp > CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hieu/LinuxProject/QTAPP/build/.rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp > CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp.i
 
 CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hieu/mysampleapp/QTAPP/build/.rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp -o CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hieu/LinuxProject/QTAPP/build/.rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp -o CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp.s
 
 CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp.o: CMakeFiles/appQtQmlApp.dir/flags.make
 CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp.o: .rcc/qmlcache/appQtQmlApp_main_qml.cpp
 CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp.o: CMakeFiles/appQtQmlApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hieu/mysampleapp/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp.o -MF CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp.o.d -o CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp.o -c /home/hieu/mysampleapp/QTAPP/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hieu/LinuxProject/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp.o -MF CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp.o.d -o CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp.o -c /home/hieu/LinuxProject/QTAPP/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp
 
 CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hieu/mysampleapp/QTAPP/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp > CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hieu/LinuxProject/QTAPP/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp > CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp.i
 
 CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hieu/mysampleapp/QTAPP/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp -o CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hieu/LinuxProject/QTAPP/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp -o CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp.s
 
 CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_appQtQmlApp_raw_qml_0.cpp.o: CMakeFiles/appQtQmlApp.dir/flags.make
 CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_appQtQmlApp_raw_qml_0.cpp.o: .rcc/qrc_appQtQmlApp_raw_qml_0.cpp
 CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_appQtQmlApp_raw_qml_0.cpp.o: CMakeFiles/appQtQmlApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hieu/mysampleapp/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_appQtQmlApp_raw_qml_0.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_appQtQmlApp_raw_qml_0.cpp.o -MF CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_appQtQmlApp_raw_qml_0.cpp.o.d -o CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_appQtQmlApp_raw_qml_0.cpp.o -c /home/hieu/mysampleapp/QTAPP/build/.rcc/qrc_appQtQmlApp_raw_qml_0.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hieu/LinuxProject/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_appQtQmlApp_raw_qml_0.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_appQtQmlApp_raw_qml_0.cpp.o -MF CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_appQtQmlApp_raw_qml_0.cpp.o.d -o CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_appQtQmlApp_raw_qml_0.cpp.o -c /home/hieu/LinuxProject/QTAPP/build/.rcc/qrc_appQtQmlApp_raw_qml_0.cpp
 
 CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_appQtQmlApp_raw_qml_0.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_appQtQmlApp_raw_qml_0.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hieu/mysampleapp/QTAPP/build/.rcc/qrc_appQtQmlApp_raw_qml_0.cpp > CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_appQtQmlApp_raw_qml_0.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hieu/LinuxProject/QTAPP/build/.rcc/qrc_appQtQmlApp_raw_qml_0.cpp > CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_appQtQmlApp_raw_qml_0.cpp.i
 
 CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_appQtQmlApp_raw_qml_0.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_appQtQmlApp_raw_qml_0.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hieu/mysampleapp/QTAPP/build/.rcc/qrc_appQtQmlApp_raw_qml_0.cpp -o CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_appQtQmlApp_raw_qml_0.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hieu/LinuxProject/QTAPP/build/.rcc/qrc_appQtQmlApp_raw_qml_0.cpp -o CMakeFiles/appQtQmlApp.dir/build/.rcc/qrc_appQtQmlApp_raw_qml_0.cpp.s
 
 # Object files for target appQtQmlApp
 appQtQmlApp_OBJECTS = \
@@ -264,7 +264,7 @@ appQtQmlApp: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 appQtQmlApp: /usr/lib/x86_64-linux-gnu/libGLX.so
 appQtQmlApp: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 appQtQmlApp: CMakeFiles/appQtQmlApp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/hieu/mysampleapp/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable appQtQmlApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/hieu/LinuxProject/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable appQtQmlApp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/appQtQmlApp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -284,6 +284,6 @@ CMakeFiles/appQtQmlApp.dir/depend: appQtQmlApp_autogen/timestamp
 CMakeFiles/appQtQmlApp.dir/depend: appqtqmlapp_qmltyperegistrations.cpp
 CMakeFiles/appQtQmlApp.dir/depend: meta_types/qt6appqtqmlapp_debug_metatypes.json
 CMakeFiles/appQtQmlApp.dir/depend: meta_types/qt6appqtqmlapp_debug_metatypes.json.gen
-	cd /home/hieu/mysampleapp/QTAPP/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hieu/mysampleapp/QTAPP /home/hieu/mysampleapp/QTAPP /home/hieu/mysampleapp/QTAPP/build /home/hieu/mysampleapp/QTAPP/build /home/hieu/mysampleapp/QTAPP/build/CMakeFiles/appQtQmlApp.dir/DependInfo.cmake "--color=$(COLOR)" appQtQmlApp
+	cd /home/hieu/LinuxProject/QTAPP/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hieu/LinuxProject/QTAPP /home/hieu/LinuxProject/QTAPP /home/hieu/LinuxProject/QTAPP/build /home/hieu/LinuxProject/QTAPP/build /home/hieu/LinuxProject/QTAPP/build/CMakeFiles/appQtQmlApp.dir/DependInfo.cmake "--color=$(COLOR)" appQtQmlApp
 .PHONY : CMakeFiles/appQtQmlApp.dir/depend
 

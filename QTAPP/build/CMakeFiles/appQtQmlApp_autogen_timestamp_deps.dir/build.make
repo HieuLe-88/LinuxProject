@@ -53,10 +53,10 @@ RM = /snap/cmake/1562/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hieu/mysampleapp/QTAPP
+CMAKE_SOURCE_DIR = /home/hieu/LinuxProject/QTAPP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hieu/mysampleapp/QTAPP/build
+CMAKE_BINARY_DIR = /home/hieu/LinuxProject/QTAPP/build
 
 # Utility rule file for appQtQmlApp_autogen_timestamp_deps.
 
@@ -72,8 +72,8 @@ CMakeFiles/appQtQmlApp_autogen_timestamp_deps: .rcc/qmlcache/appQtQmlApp_qmlcach
 .rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp: .rcc/qmlcache/appQtQmlApp_qml_loader_file_list.rsp
 .rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp: .rcc/qmake_MyQmlApp.qrc
 .rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp: .rcc/appQtQmlApp_raw_qml_0.qrc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hieu/mysampleapp/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating .rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp"
-	/usr/lib/qt6/libexec/qmlcachegen --resource-name qmlcache_appQtQmlApp --resource /home/hieu/mysampleapp/QTAPP/build/.rcc/qmake_MyQmlApp.qrc --resource /home/hieu/mysampleapp/QTAPP/build/.rcc/appQtQmlApp_raw_qml_0.qrc -o /home/hieu/mysampleapp/QTAPP/build/.rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp @/home/hieu/mysampleapp/QTAPP/build/.rcc/qmlcache/appQtQmlApp_qml_loader_file_list.rsp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hieu/LinuxProject/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating .rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp"
+	/usr/lib/qt6/libexec/qmlcachegen --resource-name qmlcache_appQtQmlApp --resource /home/hieu/LinuxProject/QTAPP/build/.rcc/qmake_MyQmlApp.qrc --resource /home/hieu/LinuxProject/QTAPP/build/.rcc/appQtQmlApp_raw_qml_0.qrc -o /home/hieu/LinuxProject/QTAPP/build/.rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp @/home/hieu/LinuxProject/QTAPP/build/.rcc/qmlcache/appQtQmlApp_qml_loader_file_list.rsp
 
 CMakeFiles/appQtQmlApp_autogen_timestamp_deps.dir/codegen:
 .PHONY : CMakeFiles/appQtQmlApp_autogen_timestamp_deps.dir/codegen
@@ -92,6 +92,6 @@ CMakeFiles/appQtQmlApp_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/appQtQmlApp_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/appQtQmlApp_autogen_timestamp_deps.dir/depend:
-	cd /home/hieu/mysampleapp/QTAPP/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hieu/mysampleapp/QTAPP /home/hieu/mysampleapp/QTAPP /home/hieu/mysampleapp/QTAPP/build /home/hieu/mysampleapp/QTAPP/build /home/hieu/mysampleapp/QTAPP/build/CMakeFiles/appQtQmlApp_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)" appQtQmlApp_autogen_timestamp_deps
+	cd /home/hieu/LinuxProject/QTAPP/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hieu/LinuxProject/QTAPP /home/hieu/LinuxProject/QTAPP /home/hieu/LinuxProject/QTAPP/build /home/hieu/LinuxProject/QTAPP/build /home/hieu/LinuxProject/QTAPP/build/CMakeFiles/appQtQmlApp_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)" appQtQmlApp_autogen_timestamp_deps
 .PHONY : CMakeFiles/appQtQmlApp_autogen_timestamp_deps.dir/depend
 

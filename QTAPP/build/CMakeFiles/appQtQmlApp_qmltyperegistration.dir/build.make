@@ -53,10 +53,10 @@ RM = /snap/cmake/1562/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hieu/mysampleapp/QTAPP
+CMAKE_SOURCE_DIR = /home/hieu/LinuxProject/QTAPP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hieu/mysampleapp/QTAPP/build
+CMAKE_BINARY_DIR = /home/hieu/LinuxProject/QTAPP/build
 
 # Utility rule file for appQtQmlApp_qmltyperegistration.
 
@@ -79,19 +79,19 @@ appqtqmlapp_qmltyperegistrations.cpp: /usr/lib/x86_64-linux-gnu/metatypes/qt6qui
 appqtqmlapp_qmltyperegistrations.cpp: /usr/lib/x86_64-linux-gnu/metatypes/qt6gui_none_metatypes.json
 appqtqmlapp_qmltyperegistrations.cpp: /usr/lib/x86_64-linux-gnu/metatypes/qt6qmlmodels_none_metatypes.json
 appqtqmlapp_qmltyperegistrations.cpp: /usr/lib/x86_64-linux-gnu/metatypes/qt6opengl_none_metatypes.json
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hieu/mysampleapp/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic QML type registration for target appQtQmlApp"
-	/usr/lib/qt6/libexec/qmltyperegistrar --generate-qmltypes=/home/hieu/mysampleapp/QTAPP/build/MyQmlApp/appQtQmlApp.qmltypes --import-name=MyQmlApp --major-version=1 --minor-version=0 @/home/hieu/mysampleapp/QTAPP/build/qmltypes/appQtQmlApp_foreign_types.txt -o /home/hieu/mysampleapp/QTAPP/build/appqtqmlapp_qmltyperegistrations.cpp /home/hieu/mysampleapp/QTAPP/build/meta_types/qt6appqtqmlapp_debug_metatypes.json
-	/snap/cmake/1562/bin/cmake -E make_directory /home/hieu/mysampleapp/QTAPP/build/.generated
-	/snap/cmake/1562/bin/cmake -E touch /home/hieu/mysampleapp/QTAPP/build/.generated/appQtQmlApp.qmltypes
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hieu/LinuxProject/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic QML type registration for target appQtQmlApp"
+	/usr/lib/qt6/libexec/qmltyperegistrar --generate-qmltypes=/home/hieu/LinuxProject/QTAPP/build/MyQmlApp/appQtQmlApp.qmltypes --import-name=MyQmlApp --major-version=1 --minor-version=0 @/home/hieu/LinuxProject/QTAPP/build/qmltypes/appQtQmlApp_foreign_types.txt -o /home/hieu/LinuxProject/QTAPP/build/appqtqmlapp_qmltyperegistrations.cpp /home/hieu/LinuxProject/QTAPP/build/meta_types/qt6appqtqmlapp_debug_metatypes.json
+	/snap/cmake/1562/bin/cmake -E make_directory /home/hieu/LinuxProject/QTAPP/build/.generated
+	/snap/cmake/1562/bin/cmake -E touch /home/hieu/LinuxProject/QTAPP/build/.generated/appQtQmlApp.qmltypes
 
 MyQmlApp/appQtQmlApp.qmltypes: appqtqmlapp_qmltyperegistrations.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate MyQmlApp/appQtQmlApp.qmltypes
 
 meta_types/qt6appqtqmlapp_debug_metatypes.json.gen: /usr/lib/qt6/libexec/moc
 meta_types/qt6appqtqmlapp_debug_metatypes.json.gen: meta_types/appQtQmlApp_json_file_list.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hieu/mysampleapp/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Running moc --collect-json for target appQtQmlApp"
-	/usr/lib/qt6/libexec/moc -o /home/hieu/mysampleapp/QTAPP/build/meta_types/qt6appqtqmlapp_debug_metatypes.json.gen --collect-json @/home/hieu/mysampleapp/QTAPP/build/meta_types/appQtQmlApp_json_file_list.txt
-	/snap/cmake/1562/bin/cmake -E copy_if_different /home/hieu/mysampleapp/QTAPP/build/meta_types/qt6appqtqmlapp_debug_metatypes.json.gen /home/hieu/mysampleapp/QTAPP/build/meta_types/qt6appqtqmlapp_debug_metatypes.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hieu/LinuxProject/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Running moc --collect-json for target appQtQmlApp"
+	/usr/lib/qt6/libexec/moc -o /home/hieu/LinuxProject/QTAPP/build/meta_types/qt6appqtqmlapp_debug_metatypes.json.gen --collect-json @/home/hieu/LinuxProject/QTAPP/build/meta_types/appQtQmlApp_json_file_list.txt
+	/snap/cmake/1562/bin/cmake -E copy_if_different /home/hieu/LinuxProject/QTAPP/build/meta_types/qt6appqtqmlapp_debug_metatypes.json.gen /home/hieu/LinuxProject/QTAPP/build/meta_types/qt6appqtqmlapp_debug_metatypes.json
 
 meta_types/qt6appqtqmlapp_debug_metatypes.json: meta_types/qt6appqtqmlapp_debug_metatypes.json.gen
 	@$(CMAKE_COMMAND) -E touch_nocreate meta_types/qt6appqtqmlapp_debug_metatypes.json
@@ -116,6 +116,6 @@ CMakeFiles/appQtQmlApp_qmltyperegistration.dir/clean:
 .PHONY : CMakeFiles/appQtQmlApp_qmltyperegistration.dir/clean
 
 CMakeFiles/appQtQmlApp_qmltyperegistration.dir/depend:
-	cd /home/hieu/mysampleapp/QTAPP/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hieu/mysampleapp/QTAPP /home/hieu/mysampleapp/QTAPP /home/hieu/mysampleapp/QTAPP/build /home/hieu/mysampleapp/QTAPP/build /home/hieu/mysampleapp/QTAPP/build/CMakeFiles/appQtQmlApp_qmltyperegistration.dir/DependInfo.cmake "--color=$(COLOR)" appQtQmlApp_qmltyperegistration
+	cd /home/hieu/LinuxProject/QTAPP/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hieu/LinuxProject/QTAPP /home/hieu/LinuxProject/QTAPP /home/hieu/LinuxProject/QTAPP/build /home/hieu/LinuxProject/QTAPP/build /home/hieu/LinuxProject/QTAPP/build/CMakeFiles/appQtQmlApp_qmltyperegistration.dir/DependInfo.cmake "--color=$(COLOR)" appQtQmlApp_qmltyperegistration
 .PHONY : CMakeFiles/appQtQmlApp_qmltyperegistration.dir/depend
 

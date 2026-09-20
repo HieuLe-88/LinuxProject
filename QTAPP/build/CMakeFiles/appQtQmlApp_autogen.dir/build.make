@@ -53,10 +53,10 @@ RM = /snap/cmake/1562/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hieu/mysampleapp/QTAPP
+CMAKE_SOURCE_DIR = /home/hieu/LinuxProject/QTAPP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hieu/mysampleapp/QTAPP/build
+CMAKE_BINARY_DIR = /home/hieu/LinuxProject/QTAPP/build
 
 # Utility rule file for appQtQmlApp_autogen.
 
@@ -70,9 +70,9 @@ CMakeFiles/appQtQmlApp_autogen: appQtQmlApp_autogen/timestamp
 
 appQtQmlApp_autogen/timestamp: /usr/lib/qt6/libexec/moc
 appQtQmlApp_autogen/timestamp: CMakeFiles/appQtQmlApp_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hieu/mysampleapp/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target appQtQmlApp"
-	/snap/cmake/1562/bin/cmake -E cmake_autogen /home/hieu/mysampleapp/QTAPP/build/CMakeFiles/appQtQmlApp_autogen.dir/AutogenInfo.json Debug
-	/snap/cmake/1562/bin/cmake -E touch /home/hieu/mysampleapp/QTAPP/build/appQtQmlApp_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hieu/LinuxProject/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target appQtQmlApp"
+	/snap/cmake/1562/bin/cmake -E cmake_autogen /home/hieu/LinuxProject/QTAPP/build/CMakeFiles/appQtQmlApp_autogen.dir/AutogenInfo.json Debug
+	/snap/cmake/1562/bin/cmake -E touch /home/hieu/LinuxProject/QTAPP/build/appQtQmlApp_autogen/timestamp
 
 CMakeFiles/appQtQmlApp_autogen.dir/codegen:
 .PHONY : CMakeFiles/appQtQmlApp_autogen.dir/codegen
@@ -91,6 +91,6 @@ CMakeFiles/appQtQmlApp_autogen.dir/clean:
 .PHONY : CMakeFiles/appQtQmlApp_autogen.dir/clean
 
 CMakeFiles/appQtQmlApp_autogen.dir/depend:
-	cd /home/hieu/mysampleapp/QTAPP/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hieu/mysampleapp/QTAPP /home/hieu/mysampleapp/QTAPP /home/hieu/mysampleapp/QTAPP/build /home/hieu/mysampleapp/QTAPP/build /home/hieu/mysampleapp/QTAPP/build/CMakeFiles/appQtQmlApp_autogen.dir/DependInfo.cmake "--color=$(COLOR)" appQtQmlApp_autogen
+	cd /home/hieu/LinuxProject/QTAPP/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hieu/LinuxProject/QTAPP /home/hieu/LinuxProject/QTAPP /home/hieu/LinuxProject/QTAPP/build /home/hieu/LinuxProject/QTAPP/build /home/hieu/LinuxProject/QTAPP/build/CMakeFiles/appQtQmlApp_autogen.dir/DependInfo.cmake "--color=$(COLOR)" appQtQmlApp_autogen
 .PHONY : CMakeFiles/appQtQmlApp_autogen.dir/depend
 

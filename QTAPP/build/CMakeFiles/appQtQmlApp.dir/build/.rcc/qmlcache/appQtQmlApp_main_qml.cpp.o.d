@@ -1,5 +1,5 @@
 CMakeFiles/appQtQmlApp.dir/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp.o: \
- /home/hieu/mysampleapp/QTAPP/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp \
+ /home/hieu/LinuxProject/QTAPP/build/.rcc/qmlcache/appQtQmlApp_main_qml.cpp \
  /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmlprivate.h \
  /usr/include/x86_64-linux-gnu/qt6/QtQml/qtqmlglobal.h \

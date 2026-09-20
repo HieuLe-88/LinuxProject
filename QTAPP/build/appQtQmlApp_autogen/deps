@@ -1,9 +1,9 @@
 appQtQmlApp_autogen/timestamp: \
-	/home/hieu/mysampleapp/QTAPP/CMakeLists.txt \
-	/home/hieu/mysampleapp/QTAPP/build/.rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp \
-	/home/hieu/mysampleapp/QTAPP/build/CMakeFiles/4.4.3/CMakeCXXCompiler.cmake \
-	/home/hieu/mysampleapp/QTAPP/build/CMakeFiles/4.4.3/CMakeSystem.cmake \
-	/home/hieu/mysampleapp/QTAPP/main.cpp \
+	/home/hieu/LinuxProject/QTAPP/CMakeLists.txt \
+	/home/hieu/LinuxProject/QTAPP/build/.rcc/qmlcache/appQtQmlApp_qmlcache_loader.cpp \
+	/home/hieu/LinuxProject/QTAPP/build/CMakeFiles/4.4.3/CMakeCXXCompiler.cmake \
+	/home/hieu/LinuxProject/QTAPP/build/CMakeFiles/4.4.3/CMakeSystem.cmake \
+	/home/hieu/LinuxProject/QTAPP/main.cpp \
 	/snap/cmake/1562/share/cmake-4.4/Modules/CMakeCXXCompiler.cmake.in \
 	/snap/cmake/1562/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp \
 	/snap/cmake/1562/share/cmake-4.4/Modules/CMakeCXXInformation.cmake \

@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/hieu/mysampleapp/QTAPP/CMakeLists.txt"
+  "/home/hieu/LinuxProject/QTAPP/CMakeLists.txt"
   "CMakeFiles/4.4.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.4.3/CMakeSystem.cmake"
   "/snap/cmake/1562/share/cmake-4.4/Modules/CMakeCXXCompiler.cmake.in"

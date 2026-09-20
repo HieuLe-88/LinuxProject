@@ -53,10 +53,10 @@ RM = /snap/cmake/1562/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hieu/mysampleapp/QTAPP
+CMAKE_SOURCE_DIR = /home/hieu/LinuxProject/QTAPP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hieu/mysampleapp/QTAPP/build
+CMAKE_BINARY_DIR = /home/hieu/LinuxProject/QTAPP/build
 
 # Utility rule file for appQtQmlApp_qmlimportscan.
 
@@ -71,9 +71,9 @@ CMakeFiles/appQtQmlApp_qmlimportscan: .qt_plugins/Qt6_QmlPlugins_Imports_appQtQm
 .qt_plugins/Qt6_QmlPlugins_Imports_appQtQmlApp.cmake: /usr/lib/qt6/libexec/qmlimportscanner
 .qt_plugins/Qt6_QmlPlugins_Imports_appQtQmlApp.cmake: .rcc/qmake_MyQmlApp.qrc
 .qt_plugins/Qt6_QmlPlugins_Imports_appQtQmlApp.cmake: .rcc/appQtQmlApp_raw_qml_0.qrc
-.qt_plugins/Qt6_QmlPlugins_Imports_appQtQmlApp.cmake: /home/hieu/mysampleapp/QTAPP/main.qml
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hieu/mysampleapp/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running qmlimportscanner for appQtQmlApp"
-	cd /home/hieu/mysampleapp/QTAPP && /usr/lib/qt6/libexec/qmlimportscanner @/home/hieu/mysampleapp/QTAPP/build/.qt_plugins/Qt6_QmlPlugins_Imports_appQtQmlApp.rsp
+.qt_plugins/Qt6_QmlPlugins_Imports_appQtQmlApp.cmake: /home/hieu/LinuxProject/QTAPP/main.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hieu/LinuxProject/QTAPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running qmlimportscanner for appQtQmlApp"
+	cd /home/hieu/LinuxProject/QTAPP && /usr/lib/qt6/libexec/qmlimportscanner @/home/hieu/LinuxProject/QTAPP/build/.qt_plugins/Qt6_QmlPlugins_Imports_appQtQmlApp.rsp
 
 CMakeFiles/appQtQmlApp_qmlimportscan.dir/codegen:
 .PHONY : CMakeFiles/appQtQmlApp_qmlimportscan.dir/codegen
@@ -92,6 +92,6 @@ CMakeFiles/appQtQmlApp_qmlimportscan.dir/clean:
 .PHONY : CMakeFiles/appQtQmlApp_qmlimportscan.dir/clean
 
 CMakeFiles/appQtQmlApp_qmlimportscan.dir/depend:
-	cd /home/hieu/mysampleapp/QTAPP/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hieu/mysampleapp/QTAPP /home/hieu/mysampleapp/QTAPP /home/hieu/mysampleapp/QTAPP/build /home/hieu/mysampleapp/QTAPP/build /home/hieu/mysampleapp/QTAPP/build/CMakeFiles/appQtQmlApp_qmlimportscan.dir/DependInfo.cmake "--color=$(COLOR)" appQtQmlApp_qmlimportscan
+	cd /home/hieu/LinuxProject/QTAPP/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hieu/LinuxProject/QTAPP /home/hieu/LinuxProject/QTAPP /home/hieu/LinuxProject/QTAPP/build /home/hieu/LinuxProject/QTAPP/build /home/hieu/LinuxProject/QTAPP/build/CMakeFiles/appQtQmlApp_qmlimportscan.dir/DependInfo.cmake "--color=$(COLOR)" appQtQmlApp_qmlimportscan
 .PHONY : CMakeFiles/appQtQmlApp_qmlimportscan.dir/depend
 
